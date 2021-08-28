@@ -1,8 +1,8 @@
 import unittest
 import torch
 
-from slam.common.optimization import PointToPlaneCost, GaussNewton
-from slam.common.pose import Pose
+from pylidar_slam.common.optimization import PointToPlaneCost, GaussNewton
+from pylidar_slam.common.pose import Pose
 
 
 class MyTestCase(unittest.TestCase):

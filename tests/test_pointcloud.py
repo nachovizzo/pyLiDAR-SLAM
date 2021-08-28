@@ -1,6 +1,6 @@
 import unittest
 
-from slam.common.pointcloud import *
+from pylidar_slam.common.pointcloud import *
 
 
 class PointCloudCase(unittest.TestCase):

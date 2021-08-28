@@ -1,5 +1,5 @@
 import unittest
-from slam.common.geometry import *
+from pylidar_slam.common.geometry import *
 
 
 class GeometryTestCase(unittest.TestCase):

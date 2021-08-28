@@ -3,17 +3,17 @@ import numpy as np
 from scipy.spatial.transform import Rotation
 
 # Project Imports
-from slam.eval.eval_odometry import compute_relative_poses, compute_absolute_poses
+from pylidar_slam.eval.eval_odometry import compute_relative_poses, compute_absolute_poses
 from viz3d.window import OpenGLWindow
 
 
 class BackendTestCase(unittest.TestCase):
     def test_graph_slam(self):
         # Construct Test problem
-        from slam.backend.backend import _with_g2o
+        from pylidar_slam.backend.backend import _with_g2o
         self.assertTrue(_with_g2o)
 
-        from slam.backend.backend import GraphSLAM, GraphSLAMConfig
+        from pylidar_slam.backend.backend import GraphSLAM, GraphSLAMConfig
 
         num_poses = 101
         thetas = 2 * np.pi * np.arange(num_poses) / num_poses

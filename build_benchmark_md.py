@@ -17,9 +17,9 @@ import yaml
 import hydra
 from hydra.core.config_store import ConfigStore
 
-from slam.common.utils import assert_debug
-from slam.common.io import *
-from slam.eval.eval_odometry import *
+from pylidar_slam.common.utils import assert_debug
+from pylidar_slam.common.io import *
+from pylidar_slam.eval.eval_odometry import *
 
 
 @dataclass

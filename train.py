@@ -9,13 +9,13 @@ from hydra.conf import dataclass, MISSING
 from omegaconf import DictConfig, OmegaConf
 
 # Project Imports
-from slam.common.pose import Pose
-from slam.common.projection import SphericalProjector
-from slam.common.utils import assert_debug
-from slam.dataset import DATASET, DatasetLoader, DatasetConfig
-from slam.training.loss_modules import _PointToPlaneLossModule, _PoseSupervisionLossModule, LossConfig
-from slam.training.prediction_modules import _PoseNetPredictionModule, PredictionConfig
-from slam.training.trainer import ATrainer, ATrainerConfig
+from pylidar_slam.common.pose import Pose
+from pylidar_slam.common.projection import SphericalProjector
+from pylidar_slam.common.utils import assert_debug
+from pylidar_slam.dataset import DATASET, DatasetLoader, DatasetConfig
+from pylidar_slam.training.loss_modules import _PointToPlaneLossModule, _PoseSupervisionLossModule, LossConfig
+from pylidar_slam.training.prediction_modules import _PoseNetPredictionModule, PredictionConfig
+from pylidar_slam.training.trainer import ATrainer, ATrainerConfig
 
 
 # ----------------------------------------------------------------------------------------------------------------------
