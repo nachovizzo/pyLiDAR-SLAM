@@ -1,4 +1,4 @@
-recursive-include src/pylidar_slam *.py
-recursive-include src/pylidar_slam *.yaml
+recursive-include src/slam *.py
+recursive-include src/slam *.yaml
 global-exclude *.pyc
 global-exclude __pycache__
