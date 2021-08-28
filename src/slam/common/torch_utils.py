@@ -2,7 +2,7 @@ from typing import Union
 
 import torch
 from torchvision.transforms.functional import to_tensor
-from torch._six import container_abcs
+import collections.abc as container_abcs
 from torch.utils.data.dataloader import default_collate
 
 import numpy as np

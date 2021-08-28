@@ -1,6 +1,6 @@
 from typing import Optional
 from torch.utils.data import Dataset
-from torch._six import container_abcs
+import collections.abc as container_abcs
 from torch.utils.data._utils.collate import default_collate
 import numpy as np
 
